@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:ital,wght@0,400;1,300&family=Roboto&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #fff;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display:flex;
+    align-items: center;
+    padding: 20px;
+}
+.logo img{
+    width: 140px;
+    height: 140px;
+    border-radius:70px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+
+} 
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #555;
+}
+nav img{
+    width:20px;
+    height: 20px;
+    border-radius: 20px;
+}
+.contenair{
+    max-width: 1200px;
+    margin: 20px auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    flex-wrap: wrap;
+
+}
+.col_2{
+    flex-basis: 50%;
+    min-width: 300px;
+
+}
+.col_2 img{
+    width: 100%;
+    border-radius: 20px;
+
+}
+.col_2 h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0px;
+}
+#con{
+    font-size: 23px;
+    color: #333;
+}
+p{
+    color: #222;
+    font-size: 15px;
+}
+i{
+    font-size: 15px;
+    
+}
+.col_2 a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 30px;
+    font-size: 20px;
+    background-color: #16a7b4;
+    color: #fff;
+    border-radius: 30px;
+    margin-top: 25px;
+    transition:background 0.6s;
+}
+.col_2 a:hover{
+    background: #106e77;
+}
+.header_section{
+    background: radial-gradient(#fff, #eaf2fb);
+    margin-top: -20px;
+}
+/* style de le section categories*/
+.categories .contenair h2{
+    color: #fff;
+    font-size: 20px;
+    background-color: #106e77;
+    width: 95%;
+    margin-left: 32px;
+    align-items: center;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+h3{
+    color: #555;
+}
+.col_3{
+    flex-basis: 30%;
+    min-width: 300px;
+    margin: auto;
+    padding: 15px;
+    transition: transform 0.6s;
+}
+.col_3 img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.col_3:hover{
+    transform: translateY(-15px);
+}
+.rating{
+    color: #106e77;
+}
+
+.contenair h2{
+    text-align: center;
+    font-size: 1.9rem;
+    color: #444;
+    margin: 20px 0;
+}
+/*section categorie1*/
+
+.contenair{
+    max-width: 1200px;
+    margin: 20px auto;
+    padding-left: 20px;
+    padding-right: 25px;
+}
+.col_4{
+    flex-basis: 30%;
+    min-width: 300px;
+    padding: 15px;
+    transition: transform 0.6s;
+}
+.col_4 img{
+    width: 100%;
+    border-radius: 20px;
+}
+.col_4:hover{
+    transform: translateY(-15px);
+}
+/*section categorie2*/
+
+.contenair{
+    max-width: 1200px;
+    margin: 20px auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.col_5{
+    flex-basis: 30%;
+    min-width: 300px;
+    padding: 15px;
+    transition: transform 0.6s;
+}
+.col_5 img{
+    width: 100%;
+    border-radius: 20px;
+}
+.col_5:hover{
+    transform: translateY(-15px);
+}
+/* setction categorie3*/
+
+.contenair{
+    max-width: 1200px;
+    margin: 20px auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.col_6{
+    flex-basis: 30%;
+    min-width: 300px;
+    padding:15px;
+    transition: transform 0.6s;
+}
+.col_6 img{
+    width: 100%;
+    border-radius: 20px;
+}
+.col_6:hover{
+    transform:translateY(-15px);
+}
+/* section de categorie*/
+
+.contenair{
+    max-width: 1200px;
+    margin: 20px auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.col_7{
+    flex-basis: 30%;
+    min-width: 300px;
+    padding: 15px;
+    transition: transform 0.6s;
+}
+.col_7 img{
+    width: 100%;
+    border-radius: 20px;
+}
+.col_7 :hover{
+    transform:translateY(-15px)
+}
+/* section de categorie8 */
+
+.contenair{
+    max-width: 1200px;
+    margin: 20px auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.col_8{
+    flex-basis: 30%;
+    min-width: 300px;
+    padding: 15px;
+    transition: transform 0.6s;
+}
+.col_8 img{
+    width: 100%;
+    border-radius: 20px;
+}
+.col_8 :hover{
+    transform: translateY(-15px);
+}
+/* section de categorie9 */
+
+.contenair{
+    max-width: 1200px;
+    margin: 20px auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.col_9{
+    flex-basis: 30%;
+    min-width: 300px;
+    padding: 15px;
+    transition: transform 0.6s;
+}
+.col_9 img{
+    width: 100%;
+    border-radius: 20px;
+}
+.col_9 :hover{
+    transform: translateY(-15px);
+}
+/* section de categorie */
+.col_10{
+    flex-basis: 30%;
+    min-width: 300px;
+    padding: 15px;
+    transition: transform 0.6s;
+}
+.col_10 img{
+    width: 100%;
+    border-radius: 20px;
+}
+.col_10 :hover{
+    transform: translateY(-15px);
+}
+/* section de categorie11 */
+.col_11{
+    flex-basis: 30%;
+    min-width: 300px;
+    padding: 15px;
+    transition: transform 0.6s;
+}
+.col_11 img{
+    width: 100%;
+    border-radius: 20px;
+}
+.col_11 :hover{
+    transform: translateY(-15px);
+}
+footer{
+    margin-top:-20px;
+    border-top: 4px solid #6f6f6f;
+    background-color: #000;
+    color:rgb(180, 180, 180);
+    padding: 30px 52px;
+    border-radius: 10px;
+}
+footer h1{
+    margin-left: 52px;
+    border-bottom: 2px solid rgb(180, 180, 180);
+    width: 15%;
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+
+footer .contenair h3{
+    margin-top: 20px;
+    color:rgb(180, 180, 180);
+    font-size: 16px;
+    transition: background 0.6s;
+}
+footer .contenair h3:hover{
+    color: #fff;
+}
+
+footer .contenair{
+    margin-top: -10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+footer .contenair .col_12{
+    margin-left: 30px;
+
+}
+footer .contenair .col_12 p{
+    max-width: 300px;
+    padding: 2px;
+    color:rgb(180, 180, 180);
+    font-size: 13px;
+    transition: background 0.6s;
+}
+footer .contenair .col_12 p:hover{
+    color: #fff;
+}
+footer #contact{
+    padding: 50px;
+    margin-top: -35px;
+    font-size: 13px;
+    color: rgb(180, 180, 180);
+}
